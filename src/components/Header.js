@@ -29,43 +29,9 @@ const Header = () => {
                                     <li className="nav-item">
                                         <Link to="/" className="nav-link text-dark fw-bold">Home</Link>
                                     </li>
-                                    <li className="nav-item dropdown">
-                                    <button
-                                        className="nav-link dropdown-toggle text-dark fw-bold "
-                                        href="#"
-                                        id="dropdownMenuLink"
-                                        data-bs-toggle="dropdown"
-                                        aria-expanded="false"
-
-                                    >
-                                        Library
-                                    </button>
-
-                                    <ul
-                                        className="dropdown-menu "
-                                        aria-labelledby="dropdownMenuLink"
-                                        style={{
-                                            backgroundColor: '#fff',
-                                            color: '#4b3b17',
-                                            borderRadius: '10px',
-                                            boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
-                                            zIndex: 1000,
-                                        }}
-                                    >
-                                        <li>
-                                            <Link className="dropdown-item black" to='/'>
-                                                Gallery
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link className="dropdown-item black" to="/">
-                                                Video
-                                            </Link>
-                                        </li>
-                                        
-                                    </ul>
-
-                                </li>
+                                    <li className="nav-item">
+                                        <Link to='/Gallery' className="nav-link text-dark fw-bold">Gallery</Link>
+                                    </li>
 
                                     <li className="nav-item">
                                         <Link to='/AboutUs' className="nav-link text-dark fw-bold">About Us</Link>

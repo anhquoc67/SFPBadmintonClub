@@ -4,6 +4,7 @@ import '../../Style/Level.css'; // Optional: For custom styling
 const Level = () => {
     return (
         <div className="level-container">
+            <h2 style={{ textAlign: 'center'}}>Bảng xếp hạng Trình độ</h2>
             <section className="level-section">
                 <h2>Average</h2>
                 <p>Chúng tôi là những người đánh lâu năm</p>

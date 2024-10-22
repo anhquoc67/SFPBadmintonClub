@@ -15,7 +15,7 @@ function AboutUs() {
                 <div className="text-left col-md-8">
                     <h2>Giới Thiệu SFP Badminton-Club</h2>
                     <p>
-                        Nhóm cầu lông được thành lập vào năm 2014, luôn tìm kiếm những cá nhân đam mê môn thể thao này. Đây cũng là sân chơi lành mạnh cho mọi lứa tuổi. Lợi ích của việc chơi cầu lông bao gồm cải thiện sức khỏe, tăng cường sự nhanh nhẹn về tinh thần và rèn luyện phản xạ cho người chơi trong bộ môn này.
+                        Nhóm cầu lông được thành lập vào năm 2019, luôn tìm kiếm những cá nhân đam mê môn thể thao này. Đây cũng là sân chơi lành mạnh cho mọi lứa tuổi. Lợi ích của việc chơi cầu lông bao gồm cải thiện sức khỏe, tăng cường sự nhanh nhẹn về tinh thần và rèn luyện phản xạ cho người chơi trong bộ môn này.
                     </p>
                 </div>
             </div>
@@ -53,7 +53,7 @@ function AboutUs() {
                 <div className="col-md-6">
                     {/* Add the image here */}
                     <img 
-                        src="https://res.cloudinary.com/duj4e3i6z/image/upload/v1729464169/ban2_ohlmhm.png" // Replace with the correct path
+                        src="https://res.cloudinary.com/duj4e3i6z/image/upload/v1729592825/khaimac_obi6ee.jpg" // Replace with the correct path
                         alt="Our Fan Design" 
                         className="img-fluid rounded" 
                         style={{ maxHeight: '300px', objectFit: 'cover', width: 'auto' }} 

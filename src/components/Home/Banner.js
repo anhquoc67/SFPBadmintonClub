@@ -4,10 +4,9 @@ const Banner = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const backgroundImages = [
-    'https://res.cloudinary.com/duj4e3i6z/image/upload/v1729464169/ban1_bd4qzh.png',
+    'https://res.cloudinary.com/duj4e3i6z/image/upload/v1729592825/khaimac_obi6ee.jpg',
     'https://res.cloudinary.com/duj4e3i6z/image/upload/v1729464169/ban2_ohlmhm.png',
-    'https://res.cloudinary.com/duj4e3i6z/image/upload/v1729464169/ban3_khobxv.png',
-    'https://res.cloudinary.com/duj4e3i6z/image/upload/v1729464169/ban4_qdmlnf.png'
+    'https://res.cloudinary.com/duj4e3i6z/image/upload/v1729592829/luuniem_x1shpo.jpg'
   ];
 
   // Change background every 2 seconds
@@ -20,9 +19,9 @@ const Banner = () => {
   }, [backgroundImages.length]);
 
   const images = [
-    "https://res.cloudinary.com/duj4e3i6z/image/upload/v1729413057/bn4_qwimll.jpg",
-    "https://res.cloudinary.com/duj4e3i6z/image/upload/v1729413057/bn5_iz1j82.jpg",
-    "https://res.cloudinary.com/duj4e3i6z/image/upload/v1729413057/bn6_rbmmzb.jpg",
+    "https://res.cloudinary.com/duj4e3i6z/image/upload/v1729592832/nhom2_kfrbno.jpg",
+    "https://res.cloudinary.com/duj4e3i6z/image/upload/v1729592833/dulich_n1ex5c.jpg",
+    "https://res.cloudinary.com/duj4e3i6z/image/upload/v1729592844/nhom1_mbrvel.jpg",
     "https://res.cloudinary.com/duj4e3i6z/image/upload/v1729413593/bn8_v0kwk7.jpg"
   ];
 
@@ -85,7 +84,7 @@ const Banner = () => {
               fontWeight: 'bold',
               fontSize: '14px'
             }}>
-              HOT
+              30/4
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -100,7 +99,7 @@ const Banner = () => {
         <div style={{ marginLeft: '20px', maxWidth: '300px', flexGrow: 1 }}>
           <h3>Description</h3>
           <p className="text-black mt-3">
-            Đây là tin HOT nhất của sự kiện giải đấu cầu lông của Group SFP Badminton Club, nhấp vào See More để xem rõ hơn.
+            Điểm lại sự kiện mùa giải 30/04/2023 của Group SFP Badminton Club, nhấp vào See More để xem rõ hơn.
           </p>
           <button onClick={handleLearnMore} style={{ 
             padding: '10px 20px', 

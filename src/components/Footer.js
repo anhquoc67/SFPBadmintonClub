@@ -44,7 +44,7 @@ function Footer() {
                     <div className="col-lg-4 col-md-4 mb-4">
                         <h5 className="text-uppercase fw-bold mb-3">About Us</h5>
                         <p className="text-white mt-3">
-                        Nhóm cầu lông được thành lập vào năm 2014, luôn tìm kiếm những cá nhân đam mê môn thể thao này. Đây cũng là sân chơi lành mạnh cho mọi lứa tuổi. Lợi ích của việc chơi cầu lông bao gồm cải thiện sức khỏe, tăng cường sự nhanh nhẹn về tinh thần và rèn luyện phản xạ cho người chơi trong bộ môn này.
+                        Nhóm cầu lông được thành lập vào năm 2019, luôn tìm kiếm những cá nhân đam mê môn thể thao này. Đây cũng là sân chơi lành mạnh cho mọi lứa tuổi. Lợi ích của việc chơi cầu lông bao gồm cải thiện sức khỏe, tăng cường sự nhanh nhẹn về tinh thần và rèn luyện phản xạ cho người chơi trong bộ môn này.
                         </p>
                     </div>
 

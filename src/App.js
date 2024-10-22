@@ -16,6 +16,8 @@ import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Login from './components/Login';
 import Register from './components/Register';
+import Gallery from './components/Gallery';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   
@@ -33,6 +35,7 @@ function App() {
       <Route path='/Login' element={<Login />} />
       <Route path='/Register' element={<Register />} />
       <Route path='/ContactUs' element={<ContactUs />} />
+      <Route path='/Gallery' element={<Gallery  />} />
       <Route path='*' index element={<Body />} />
       </Routes>
       </div>
